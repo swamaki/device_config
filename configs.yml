@@ -1,0 +1,18 @@
+snmp-server community SNMP_1 RO ACL_1
+snmp-server community SNMP_2 RO ACL_2
+snmp-server community SNMP_3 RO ACL_3
+snmp-server community SNMP_4 RO ACL_4
+
+# commands: 
+# - snmp-server community SNMP_1 RO ACL_1
+# - snmp-server community SNMP_2 RO ACL_2
+# - snmp-server community SNMP_3 RO ACL_3
+
+# sh run | in snmp
+# conf t
+# no snmp-server community SNMP_1 RO ACL_1
+# no snmp-server community SNMP_2 RO ACL_2
+# no snmp-server community SNMP_3 RO ACL_3
+# no snmp-server community SNMP_4 RO ACL_4
+# end
+# sh run | in snmp

@@ -1,0 +1,24 @@
+
+advertised_routes = ['10.10.10.0/24', '10.10.20.0/24']
+TEMPLATE_VARS = {
+    'fw_outside': 'outside',
+    'ikev1_policy_no': 999,
+    'bgp_asn': 65000,
+    'remote_asn': 65012,
+    'bgp_peer1': '169.254.1.1',
+    'bgp_peer2': '169.254.2.1',
+    'advertised_routes': advertised_routes,
+    'received_routes': '172.18.0.0/21',
+    'vpn_peer1': '1.1.1.1',
+    'vpn_peer2': '2.2.2.2',
+    'peer1_psk': 'password1',
+    'peer2_psk': 'password1',
+    'peer1_tunnel_no': '21',
+    'peer2_tunnel_no': '22',
+    'peer1_tunnel_nameif': 'aws_vpn21',
+    'peer2_tunnel_nameif': 'aws_vpn22',
+    'peer1_tunnel_ip': '169.254.1.2',
+    'peer2_tunnel_ip': '169.254.2.2',
+    'peer1_tunnel_mask': '255.255.255.252',
+    'peer2_tunnel_mask': '255.255.255.252'
+}
